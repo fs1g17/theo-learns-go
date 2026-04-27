@@ -30,6 +30,6 @@ export const projects: Project[] = [
     status: "complete",
     date: "Feb 2025",
     href: "/ws-chat",
-    github: "https://github.com/",
+    github: "https://github.com/fs1g17/ws-chat",
   },
 ];
