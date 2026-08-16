@@ -11,16 +11,17 @@ export interface Project {
   github?: string;
 }
 
+// Newest first — add new projects at the top with the next id.
 export const projects: Project[] = [
   {
-    id: 1,
-    title: "MiniQ",
-    subtitle: "A simple persistent queue built with Go and Postgres.",
-    tags: ["Go", "PostgreSQL", "queue"],
+    id: 3,
+    title: "Mini-Redis",
+    subtitle: "A Redis clone in Go, speaking RESP over raw TCP.",
+    tags: ["Go", "TCP", "protocols"],
     status: "complete",
-    date: "Jan 2025",
-    href: "/MiniQ",
-    github: "https://github.com/fs1g17/MiniQ",
+    date: "Aug 2026",
+    href: "/mini-redis",
+    github: "https://github.com/fs1g17/Mini-Redis",
   },
   {
     id: 2,
@@ -28,8 +29,18 @@ export const projects: Project[] = [
     subtitle: "A fullstack real-time chat app built with WebSockets.",
     tags: ["Go", "WebSockets", "fullstack"],
     status: "complete",
-    date: "Feb 2025",
+    date: "Feb 2026",
     href: "/ws-chat",
     github: "https://github.com/fs1g17/ws-chat",
+  },
+  {
+    id: 1,
+    title: "MiniQ",
+    subtitle: "A simple persistent queue built with Go and Postgres.",
+    tags: ["Go", "PostgreSQL", "queue"],
+    status: "complete",
+    date: "Jan 2026",
+    href: "/MiniQ",
+    github: "https://github.com/fs1g17/MiniQ",
   },
 ];

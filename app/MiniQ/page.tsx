@@ -22,7 +22,7 @@ export default function MiniQPage() {
       subtitle="A simple persistent queue built with Go and Postgres."
       tags={["Go", "PostgreSQL", "queue", "long polling", "goroutines"]}
       status="complete"
-      date="Jan 2025"
+      date="Jan 2026"
       github="https://github.com/fs1g17/MiniQ"
     >
       <div className="space-y-5 text-sm text-foreground/75 leading-7">

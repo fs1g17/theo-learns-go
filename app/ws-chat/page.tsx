@@ -54,7 +54,7 @@ export default function WsChatPage() {
       subtitle="A fullstack real-time chat app built with WebSockets."
       tags={["Go", "WebSockets", "goroutines", "channels", "React", "Vite"]}
       status="complete"
-      date="Feb 2025"
+      date="Feb 2026"
       github="https://github.com/fs1g17/ws-chat"
     >
       <div className="text-sm text-foreground/75 leading-7">
