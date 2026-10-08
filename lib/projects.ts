@@ -14,6 +14,16 @@ export interface Project {
 // Newest first — add new projects at the top with the next id.
 export const projects: Project[] = [
   {
+    id: 4,
+    title: "Mini-URL-Shortener",
+    subtitle: "A URL shortener with click analytics, built with Go and PostgreSQL.",
+    tags: ["Go", "PostgreSQL", "SQL"],
+    status: "complete",
+    date: "Oct 2026",
+    href: "/mini-url-shortener",
+    github: "https://github.com/fs1g17/Mini-URL-Shortener",
+  },
+  {
     id: 3,
     title: "Mini-Redis",
     subtitle: "A Redis clone in Go, speaking RESP over raw TCP.",
